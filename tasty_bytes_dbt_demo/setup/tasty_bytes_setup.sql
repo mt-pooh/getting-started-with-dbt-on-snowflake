@@ -26,7 +26,7 @@ ALTER SCHEMA tasty_bytes_dbt_db.prod SET METRIC_LEVEL = 'ALL';
 
 CREATE OR REPLACE API INTEGRATION git_integration
   API_PROVIDER = git_https_api
-  API_ALLOWED_PREFIXES = ('https://github.com/')
+  API_ALLOWED_PREFIXES = ('https://github.com/mt-pooh')
   ENABLED = TRUE;
 
 CREATE OR REPLACE NETWORK RULE tasty_bytes_dbt_db.public.dbt_network_rule
